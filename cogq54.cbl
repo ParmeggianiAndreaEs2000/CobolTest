@@ -212,6 +212,8 @@
        a4.
            initialize tab-maschera
            move "E"                     to tm-tipo
+           move "Ciao"                  to wb-msg
+           perform vbx-msg
            move "4"                     to tm-stato
            move 20170101                to tm-da-data
            move 20991231                to tm-a-data
