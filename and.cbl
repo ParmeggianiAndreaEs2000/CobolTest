@@ -5,6 +5,7 @@
       **--------------------------------------------------------------**
       ** window per ricerca clienti via descrizione
       ** Conversione Win: Gianluca 01/09/2005
+      *  RIGA DI COMMENTO RELATIVA ALLA COMMESSA-TEST-2
       *  Aggiunto una riga nel titolo  
       **--------------------------------------------------------------**
        environment division.
