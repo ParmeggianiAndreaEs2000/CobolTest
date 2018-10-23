@@ -518,9 +518,10 @@
            if (tm-cfg-ricerca-strif = k-yes)
               perform z-cogsa1-ricerca
            end-if
-           if tm-cfg-destinazioni = k-yes
-      *       AND m-presenza-w06-dati-aggiunti = k-yes
-              perform z-ricerca-cogdesti thru ex-ricerca-cogdesti
+           if tm-cfg-destinazioni = k-no
+              move "Salve" to wb-msg
+              perform vbx-msg
+              perform z-ricerca-cogdesti  thru ex-ricerca-cogdesti
            end-if
 
            perform rem-clk
