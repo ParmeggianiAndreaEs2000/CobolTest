@@ -5,6 +5,7 @@
       **--------------------------------------------------------------**
       ** window per ricerca clienti via descrizione
       ** Conversione Win: Gianluca 01/09/2005
+      *  Aggiunto una riga nel titolo  
       **--------------------------------------------------------------**
        environment division.
        configuration section.
